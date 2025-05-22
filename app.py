@@ -1,9 +1,10 @@
 import streamlit as st
-import os
 import tempfile
 import time
 import numpy as np
 from main import main as run_analysis  # Make sure run_analysis returns team_ball_control or saves it to a file
+import os
+os.environ["STREAMLIT_SERVER_ENABLE_FILE_WATCHER"] = "false"  # Disables problematic inspection
 
 # Page setup
 st.set_page_config(
