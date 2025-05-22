@@ -3,7 +3,6 @@ import os
 import tempfile
 import time
 import numpy as np
-import matplotlib.pyplot as plt
 from main import main as run_analysis  # Make sure run_analysis returns team_ball_control or saves it to a file
 
 # Page setup
