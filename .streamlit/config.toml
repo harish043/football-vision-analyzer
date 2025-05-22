@@ -1,2 +1,2 @@
-[global]
-watchdog = false
+[server]
+enableWatchdog = false
