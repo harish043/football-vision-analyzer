@@ -1,7 +1,2 @@
-[theme]
-base = "light"               # or "dark"
-primaryColor = "#0072ff"     # Accent color (buttons, sliders)
-backgroundColor = "#ffffff"  # Main background
-secondaryBackgroundColor = "#f5f5f5"  # Sidebar/background cards
-textColor = "#000000"        # Main text color
-font = "sans serif"          # "sans serif", "serif", or "monospace"
+[global]
+watchdog = false
